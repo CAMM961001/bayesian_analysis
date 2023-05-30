@@ -1,0 +1,13 @@
+main:
+  components_repository: "https://github.com/CAMM961001/bayesian_analysis"
+  project_name: "Análisis Bayesiano"
+
+modelos:
+  template: "modelos/__template__.stan"
+
+graficas:
+  colors:
+    verde: "#32B774"
+    amarillo: "#FCCB00"
+    rojo: "#FF4141"
+    azul: "#168AFF"
