@@ -3,7 +3,8 @@ main:
   project_name: "Análisis Bayesiano"
 
 modelos:
-  template: "modelos/__template__.stan"
+  dir: "modelos"
+  template: "__template__.stan"
 
 graficas:
   colors:
