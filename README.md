@@ -5,4 +5,4 @@ Repositorio para notas de estadística bayesiana
 
 Convertir archivo `<file>.dat` en archivos `<file>.csv`:
 
->cat <file>.dat | sed 's/ //g' | grep -v '^$' > <output_file>.csv
+>cat <input_file>.dat | sed 's/ //g' | grep -v '^$' > <output_file>.csv
