@@ -5,4 +5,6 @@ Repositorio para notas de estadística bayesiana
 
 Convertir archivo `<file>.dat` en archivos `<file>.csv`:
 
->cat <input_file>.dat | awk 'BEGIN {OFS=","} NR>1 {print $1, $2, $3, $4, $5, $6, $7}' > <output_file>.csv
+* Primero es necesario instalar la librería de Python csvkit: `sudo pip install csvkit`
+* Verificar instalación: `csvformat -h`
+* Convertir archivo: `csvformat input.dat -S -d ' ' > output.csv`
